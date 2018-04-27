@@ -1,0 +1,43 @@
+﻿## INSTRUCTIONS
+ Découverte du responsive
+
+## PROCEDURE EN MOBILE FIRST 
+- 1 faire son mockup depuis la maquette desktop
+- 2 mettre en place tout le HTML toujours en se référent à la maquette desktop
+- 3 commencer le CSS en se référent à la maquette mobile (Mobile First)
+- 4 intégrer dans le css, les différents paliers via les media queries
+
+
+
+## CSS
+
+- Réalisation de l'exercice en mobile first
+
+- Utilisation des media queries
+
+- Utilisation du display:none
+
+- Utilisation du display:flexbox;
+
+- Largeur limité à 80% maximum en desktop
+
+- Largeur du bloc de gauche en desktop : 70%
+
+- Largeur du bloc de droite en desktop : 30%
+
+
+- Police utilisés google font :
+    
+	- "PT Sans Narrow"
+    
+	- "Open Sans"
+
+	 
+- Tailles utilisés :
+
+	- par défaut dans html : 62%
+	- par défaut dans body : 1.6rem
+    
+	- h1 : 4rem
+    
+	- h2 : 2.4rem
