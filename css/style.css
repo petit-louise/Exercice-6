@@ -1,0 +1,169 @@
+/*-------------------------------------------------------------------
+---------------------------------------------------------------------
+MOBILE FIRST---------------------------------------------------------
+-------------------------------------------------------------------*/
+
+/* TYPO*/
+@font-face
+{
+	font-family: "Open Sans";
+	src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+	font-weight: normal;	
+}
+@font-face
+{
+	font-family: "PT Sans Narrow";
+	src: url(../fonts/PT_Sans_Narrow/PT_Sans-Narrow-Web-Regular.ttf);
+	font-weight: normal;
+}
+html
+{
+	font-size: 62%;
+}
+/*BODY*/
+body
+{
+	margin: 0 auto;
+	font-family: "Open Sans";
+	font-size: 1.6rem;
+	background-color: #f2f1f4;
+}
+header
+{
+	text-align: center;
+}
+
+nav a
+{
+	text-decoration: none;
+	color: white;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+nav
+{
+	background-color: #30a894;
+	font-family: "PT Sans Narrow";
+	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+/*titres*/
+h1, h2
+{
+	font-family: "PT Sans Narrow";
+	color: #30a894;
+	border-bottom: 2px solid #30a894;
+}
+/*section 1*/
+h1
+{
+	font-size: 4rem;
+	font-weight: lighter;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	margin-top: 15px;
+}
+.partie1 img
+{
+	width: 100%;
+}
+/*section 2*/
+h2
+{
+	font-size: 2.4rem;
+	font-weight: lighter;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	margin-top: 15px;
+}
+p span
+{
+	color: #30a894;
+}
+/*aside*/
+aside
+{
+	display: none;
+}
+
+/*footer*/
+footer
+{
+	padding-top: 15px;
+	text-align: center;
+}
+footer img
+{
+	width: 15%;
+}
+
+
+/*-------------------------------------------------------------------
+---------------------------------------------------------------------
+FIN MOBILE FIRST-----------------------------------------------------
+-------------------------------------------------------------------*/
+/*tablette*/
+@media screen and (min-width: 768px)
+{
+	aside
+	{
+		display: inline-block;
+		width: 100%;
+		background-color: #b8dcb1;
+	}
+}
+
+/*desktop*/
+@media screen and (min-width: 1024px)
+{
+	nav
+	{
+		padding: 30px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		font-family: "PT Sans Narrow";
+	}
+	div
+	{
+		display: inline-block;
+		width: 68%;
+		vertical-align: top;
+	}
+	aside
+	{
+		display: inline-block;
+		width: 29%;
+		vertical-align: top;
+		margin-left: 10px;
+		padding: 10px;
+	}
+}
+
+
+
+
+
+	
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
