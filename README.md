@@ -1,2 +1,2 @@
 # Exercice-6
-Exercice 6 formation
+Exercice "Creasoul" en responsive
